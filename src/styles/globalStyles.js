@@ -29,10 +29,17 @@ const GlobalStyle = createGlobalStyle`
         h1, h2, h3, h4, h5 {
             font-weight: 500;
         }
+        
+        h2 {
+          font-size: 3.8rem;
+        }
+
+        h5 {
+          font-size: 2.2rem;
+        }
 
         section {
-            margin-top: 12.8rem;
-            height: 100vh;
+            margin-top: 2rem;
 
             @media screen and (max-width: 1024px) {
                 margin-top: 9.6rem;

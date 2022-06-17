@@ -1,4 +1,5 @@
 import { ThemeProvider } from 'styled-components';
+import { Toaster } from 'react-hot-toast';
 import About from './components/About';
 import Contact from './components/Contact';
 import Skills from './components/Skills';
@@ -20,6 +21,7 @@ function App() {
       <Portfolio />
       <Contact />
       <Footer />
+      <Toaster position="top-right" reverseOrder={false} />
     </ThemeProvider>
   );
 }

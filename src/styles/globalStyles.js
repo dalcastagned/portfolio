@@ -40,10 +40,6 @@ const GlobalStyle = createGlobalStyle`
 
         section {
             margin-top: 2rem;
-
-            @media screen and (max-width: 1024px) {
-                margin-top: 9.6rem;
-            }
         }
 
         section > h2, 

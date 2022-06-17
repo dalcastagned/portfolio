@@ -1,0 +1,73 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb",
+        "prettier"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "prettier"
+    ],
+    "rules": {
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/state-in-constructor": "off",
+        "prettier/prettier": [
+            "error",
+            {
+              "endOfLine": "auto"
+            }
+          ],
+          "react/jsx-one-expression-per-line": "off",
+          "react/prop-types": "off",
+          "no-unused-expressions": "off",
+          "react/jsx-props-no-spreading": "off",
+          "import/prefer-default-export": "off",
+          "import/no-duplicates": "off",
+          "no-use-before-define": "warn",
+          "camelcase": "off",
+          "react/jsx-uses-react": "off",
+          "react/react-in-jsx-scope": "off",
+          "react/require-default-props": "off",
+          "no-restricted-syntax": "off",
+          "no-unused-vars": [
+            "error",
+            {
+              "argsIgnorePattern": "^_"
+            }
+          ],
+          "import/no-extraneous-dependencies": [
+            "error",
+            {
+              "devDependencies": [
+                "**/test.jsx",
+                "src/utils/tests/*.js?(x)",
+                "src/setupTests.js",
+                "src/**/stories.jsx"
+              ]
+            }
+          ],
+          "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+              "js": "never",
+              "jsx": "never"
+            }
+          ]
+    }
+}

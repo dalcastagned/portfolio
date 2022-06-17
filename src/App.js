@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import About from './components/About';
 import Contact from './components/Contact';
-import Experience from './components/Experience';
+import Skills from './components/Skills';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Nav />
       <About />
-      <Experience />
+      <Skills />
       <Portfolio />
       <Contact />
       <Footer />

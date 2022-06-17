@@ -15,11 +15,7 @@ function Nav() {
       <S.Link href="#about" active={active === '#about'} onClick={() => setActive('#about')}>
         <AiOutlineUser />
       </S.Link>
-      <S.Link
-        href="#experience"
-        active={active === '#experience'}
-        onClick={() => setActive('#experience')}
-      >
+      <S.Link href="#skills" active={active === '#skills'} onClick={() => setActive('#skills')}>
         <BiBook />
       </S.Link>
       <S.Link

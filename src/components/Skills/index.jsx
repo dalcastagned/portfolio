@@ -68,6 +68,14 @@ function Skills() {
               <BsPatchCheckFill />
               <h4>Spring Boot</h4>
             </article>
+            <article>
+              <BsPatchCheckFill />
+              <h4>XUnit</h4>
+            </article>
+            <article>
+              <BsPatchCheckFill />
+              <h4>Jest</h4>
+            </article>
           </S.SkillsContent>
         </S.Skills>
         <S.Skills>
@@ -95,11 +103,15 @@ function Skills() {
             </article>
             <article>
               <BsPatchCheckFill />
-              <h4>Firebase</h4>
+              <h4>MongoDB</h4>
             </article>
             <article>
               <BsPatchCheckFill />
               <h4>Git</h4>
+            </article>
+            <article>
+              <BsPatchCheckFill />
+              <h4>Docker</h4>
             </article>
           </S.SkillsContent>
         </S.Skills>

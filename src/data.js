@@ -13,16 +13,15 @@ export const Data = [
   },
   {
     id: 3,
-    title: 'Solar Energy (Backend)',
+    title: 'Solar Energy (Backend .NET)',
     image: '/img/portfolio/solar-energyr-backend.png',
     github: 'https://github.com/dalcastagned/solar-energy-backend',
   },
   {
     id: 4,
-    title: 'Shopping List',
-    image: '/img/portfolio/shopping-list.png',
-    github: 'https://github.com/dalcastagned/shopping-list-app',
-    demo: 'https://listaparacompras.vercel.app/',
+    title: 'Solar Energy (Backend NodeJS)',
+    image: '/img/portfolio/solar-energyr-backend.png',
+    github: 'https://github.com/dalcastagned/solar-energy-backend-node',
   },
   {
     id: 5,

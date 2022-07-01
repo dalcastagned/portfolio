@@ -44,10 +44,6 @@ export const AboutMe = styled.div`
       overflow: hidden;
       transform: rotate(10deg);
       transition: ${theme.transition};
-
-      &:hover {
-        transform: rotate(0deg);
-      }
     }
   `}
 `;

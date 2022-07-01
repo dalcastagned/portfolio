@@ -66,7 +66,7 @@ export const Socials = styled.div`
 
 export const Me = styled.div`
   ${({ theme }) => css`
-    background: linear-gradient(${theme.colorPrimary}, transparent);
+    background: linear-gradient(${theme.colorPrimary}, ${theme.colorPrimary}05);
     width: 35.2rem;
     height: 40rem;
     position: absolute;

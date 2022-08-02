@@ -20,7 +20,7 @@ function Portfolio() {
                 Código Fonte
               </Button>
               {item.demo && (
-                <Button href="https://github.com" primary target="_blank">
+                <Button href={item.demo} primary target="_blank">
                   Live Demo
                 </Button>
               )}

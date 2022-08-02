@@ -14,7 +14,7 @@ function Header() {
         <TextLight>Desenvolvedor Fullstack</TextLight>
         <S.CTA>
           <Button href={cvDanielDalcastagne} download>
-            Dowload CV
+            Download CV
           </Button>
           <Button href="/#contact" primary>
             Vamos Conversar!

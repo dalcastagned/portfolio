@@ -1,21 +1,29 @@
 import { GrMail } from 'react-icons/gr';
 import { BsWhatsapp } from 'react-icons/bs';
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import toast from 'react-hot-toast';
 
 import * as S from './styles';
-import { Button } from '../../styles/globalStyles';
+import Spinner from '../Spinner';
 
 function Contact() {
+  const [loading, setLoading] = useState(false);
   const form = useRef();
   const sendEmail = e => {
     e.preventDefault();
+    setLoading(true);
 
     emailjs
       .sendForm('service_1jzawzv', 'template_ssdnrbd', form.current, 'YLMjiA7Wk6sjpqoJZ')
-      .then(() => toast.success('Mensagem enviada com sucesso!'))
-      .catch(() => toast.error('Erro ao enviar mensagem!'));
+      .then(() => {
+        toast.success('Mensagem enviada com sucesso!');
+        setLoading(false);
+      })
+      .catch(() => {
+        toast.error('Erro ao enviar mensagem!');
+        setLoading(false);
+      });
 
     e.target.reset();
   };
@@ -50,9 +58,9 @@ function Contact() {
           <input type="text" placeholder="Nome Completo" name="name" required />
           <input type="text" placeholder="Email" name="email" required />
           <textarea name="message" rows="7" placeholder="Mensagem" required />
-          <Button type="submit" primary>
-            Enviar
-          </Button>
+          <button type="submit" primary>
+            {loading ? <Spinner size={28} /> : 'Enviar'}
+          </button>
         </S.Form>
       </S.ContainerContact>
     </S.Section>

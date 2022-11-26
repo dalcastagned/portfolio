@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.26",
     "commitizen": "^4.2.4",
     "eslint": "^8.17.0",
     "eslint-config-airbnb": "^19.0.4",

@@ -25,7 +25,7 @@ function Skills() {
           <h3>Desenvolvimento Frontend</h3>
           <S.SkillsContent>
             {settings.frotendSkills.map(skill => (
-              <article>
+              <article key={skill}>
                 <BsPatchCheckFill />
                 <h4>{skill}</h4>
               </article>
@@ -36,7 +36,7 @@ function Skills() {
           <h3>Desenvolvimento Backend</h3>
           <S.SkillsContent>
             {settings.backendSkills.map(skill => (
-              <article>
+              <article key={skill}>
                 <BsPatchCheckFill />
                 <h4>{skill}</h4>
               </article>
@@ -47,7 +47,7 @@ function Skills() {
           <h3>Outros</h3>
           <S.SkillsContent>
             {settings.othersSkills.map(skill => (
-              <article>
+              <article key={skill}>
                 <BsPatchCheckFill />
                 <h4>{skill}</h4>
               </article>

@@ -64,5 +64,24 @@ export const Form = styled.form`
       resize: none;
       color: ${theme.colorWhite};
     }
+
+    button {
+      width: max-content;
+      display: inline-block;
+      color: ${theme.colorWhite};
+      padding: 1.2rem 1.9rem;
+      border-radius: 0.65rem;
+      cursor: pointer;
+      border: 0.1rem solid ${theme.colorPrimary};
+      transition: ${theme.transition};
+      background: ${theme.colorPrimary};
+      font-size: 1.6rem;
+      width: 10rem;
+      height: 6rem;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   `}
 `;

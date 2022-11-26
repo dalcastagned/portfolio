@@ -21,17 +21,56 @@ function Portfolio() {
       <h5>Projetos que Realizei</h5>
       <h2>Portfólio</h2>
 
+      <S.Title>Projetos de estudos:</S.Title>
       <S.ContainerPortfolio>
-        {settings.portfolio.map(item => (
+        {settings.studies.map(item => (
           <article key={item.id}>
             <div>
               <img src={item.image} alt={item.title} />
             </div>
             <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <ul>
+              {item.technologies.map(tech => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
             <S.CTA>
-              <Button href={item.github} target="_blank">
-                Código Fonte
-              </Button>
+              {item.github && (
+                <Button href={item.github} target="_blank">
+                  Código Fonte
+                </Button>
+              )}
+              {item.demo && (
+                <Button href={item.demo} primary target="_blank">
+                  Live Demo
+                </Button>
+              )}
+            </S.CTA>
+          </article>
+        ))}
+      </S.ContainerPortfolio>
+
+      <S.Title style={{ marginTop: '5rem' }}>Projetos Freelances:</S.Title>
+      <S.ContainerPortfolio>
+        {settings.freelances.map(item => (
+          <article key={item.id}>
+            <div>
+              <img src={item.image} alt={item.title} />
+            </div>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <ul>
+              {item.technologies.map(tech => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
+            <S.CTA>
+              {item.github && (
+                <Button href={item.github} target="_blank">
+                  Código Fonte
+                </Button>
+              )}
               {item.demo && (
                 <Button href={item.demo} primary target="_blank">
                   Live Demo

@@ -1,61 +1,184 @@
 {
-    "portfolio": [
+    "freelances": [
+        {
+            "id": 1,
+            "title": "Que Barbada (Admin)",
+            "image": "/img/portfolio/que-barbada-admin.png",
+            "description": "Projeto de administração do aplicativo Que Barbada, onde serão cadastrados os estabelecimentos e seus serviços.",
+            "technologies": [
+              "ReactJS",
+              "TypeScript",
+              "Yup com Formik",
+              "Axios",
+              "Material UI",
+              "MomentJS",
+              "Jest"
+            ]
+          }
+    ],
+    "studies": [
+        {
+        "id": 10,
+        "title": "Pixeon Planning Poker",
+        "image": "/img/portfolio/planning-poker.png",
+        "demo": "https://planning-pixeon.vercel.app/",
+        "description": "Projeto desenvolvido para auxiliar o time nas plannings que se encaixa perfeitamente com o que necessitamos.",
+        "technologies": [
+          "ReactJS",
+          "TypeScript",
+          "ChartJS",
+          "Redux",
+          "Firebase",
+          "Styled-Components",
+          "Material UI"
+        ]
+      },
         {
           "id": 9,
           "title": "API de Vendas",
           "image": "/img/portfolio/salesAPI.png",
-          "github": "https://github.com/dalcastagned/sales-api-nodejs"
+          "github": "https://github.com/dalcastagned/sales-api-nodejs",
+          "description": "API de Vendas desenvolvida para reforçar os conhecimentos em desenvolvimento de APIs RESTful com NodeJS.",
+          "technologies": [
+            "NodeJS",
+            "TypeScript",
+            "Express",
+            "Redis",
+            "Swagger",
+            "PostgreSQL",
+            "TypeORM",
+            "Docker",
+            "Handlebars",
+            "Nodemailer"
+          ]
         },
         {
           "id": 8,
           "title": "Portfólio",
           "image": "/img/portfolio/portfolio.png",
-          "github": "https://github.com/dalcastagned/portfolio"
+          "github": "https://github.com/dalcastagned/portfolio",
+          "description": "Portfolio desenvolvido para contar um pouco sobre mim e mostrar meus projetos e contatos.",
+          "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Icons",
+            "Styled-Components",
+            "React-Hot-Toast",
+            "EmailJS"
+          ]
         },
         {
           "id": 7,
           "title": "Solar Energy Refactor (Frontend)",
           "image": "/img/portfolio/solar-energy-refactor-frontend.png",
-          "github": "https://github.com/dalcastagned/solar-energy-frontend"
+          "github": "https://github.com/dalcastagned/solar-energy-frontend",
+          "description": "Projeto desenvolvido para refatorar um código antigo e melhorar a experiência do usuário utilizando Material UI.",
+          "technologies": [
+            "ReactJS",
+            "TypeScript",
+            "Material UI",
+            "Styled-Components",
+            "Axios",
+            "ChartJS",
+            "React-Toastfy",
+            "Yup com Formik",
+            "MomentJS",
+            "Jest"
+          ]
         },
         {
           "id": 6,
           "title": "Solar Energy (Backend .NET)",
           "image": "/img/portfolio/solar-energyr-backend.png",
-          "github": "https://github.com/dalcastagned/solar-energy-backend"
+          "github": "https://github.com/dalcastagned/solar-energy-backend",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em desenvolvimento de APIs RESTful com .NET Core.",
+          "technologies": [
+            ".Net C#",
+            "Swagger",
+            "SQL Server",
+            "Entity Framework",
+            "Docker",
+            "Canducci Paginated"
+          ]
         },
         {
           "id": 5,
           "title": "Solar Energy (Backend NodeJS)",
           "image": "/img/portfolio/solar-energyr-backend.png",
-          "github": "https://github.com/dalcastagned/solar-energy-backend-node"
+          "github": "https://github.com/dalcastagned/solar-energy-backend-node",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em desenvolvimento de APIs RESTful com NodeJS.",
+          "technologies": [
+            "NodeJS",
+            "TypeScript",
+            "Docker",
+            "MongoDB",
+            "Mongoose",
+            "Mongoose Paginate"
+          ]
         },
         {
           "id": 4,
           "title": "Breaking Bad",
           "image": "/img/portfolio/breaking-bad.png",
           "github": "https://github.com/dalcastagned/breaking-bad",
-          "demo": "https://breaking-bad-gilt.vercel.app/"
+          "demo": "https://breaking-bad-gilt.vercel.app/",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em consulta de APIs RESTful com Axios.",
+          "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Icons",
+            "React-Router-Dom",
+            "Axios",
+            "Styled-Components"
+          ]
         },
         {
           "id": 3,
           "title": "Informações e Noticias Sobre MMOs",
           "image": "/img/portfolio/mmo.png",
           "github": "https://github.com/dalcastagned/mmo-react-complete-site",
-          "demo": "https://mmo-react-complete-site.vercel.app/"
+          "demo": "https://mmo-react-complete-site.vercel.app/",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em consulta de APIs RESTful com Axios.",
+          "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Icons",
+            "React-Router-Dom",
+            "Axios",
+            "Styled-Components"
+          ]
         },
         {
           "id": 2,
           "title": "Solar Energy (com JSON-SERVER)",
           "image": "/img/portfolio/solar-energy.png",
-          "github": "https://github.com/dalcastagned/solar-energy-json-server"
+          "github": "https://github.com/dalcastagned/solar-energy-json-server",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em consulta de APIs RESTful com Axios utilizando JSON Server para Fake API.",
+          "technologies": [
+            "ReactJS",
+            "JavaScript",
+            "React-Icons",
+            "React-Router-Dom",
+            "React-Datepicker",
+            "Styled-Components",
+            "JSON Server",
+            "Axios",
+            "ChartJS",
+            "React-Hot-Toast"
+          ]
         },
         {
           "id": 1,
           "title": "To-Do List",
           "image": "/img/portfolio/to-do-list.png",
           "github": "https://github.com/dalcastagned/to-do-list-locastorage",
-          "demo": "https://to-do-list-locastorage.vercel.app/"
+          "demo": "https://to-do-list-locastorage.vercel.app/",
+          "description": "Projeto desenvolvido para reforçar os conhecimentos em HTML, CSS e JavaScript puro.",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
         }
       ]
 }

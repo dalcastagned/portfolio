@@ -66,17 +66,11 @@ export const Cards = styled.div`
       padding: 1.8rem;
       text-align: center;
       transition: ${theme.transition};
-        width: 14rem;
-
-      &:hover {
-        background: transparent;
-        border-color: ${theme.colorPrimaryVariant};
-        cursor: default;
-      }
+      width: 14rem;
     }
 
     svg {
-      color: ${theme.colorPrimary};
+      color: ${theme.colorPrimaryVariant};
       font-size: 2.2rem;
       margin-bottom: 1.6rem;
     }
@@ -100,5 +94,6 @@ export const Text = styled.p`
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    white-space: pre-line;
   `}
 `;

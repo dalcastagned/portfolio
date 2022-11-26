@@ -59,10 +59,9 @@ const GlobalStyle = createGlobalStyle`
 
         body {
             font-size: 1.6rem;
-            background: ${theme.colorBackground};
             color: ${theme.colorWhite};
             line-height: 1.7;
-            background-image: url(/img/bg-texture.png);
+            background-image: url(/img/texture.png);
         }
 
         html {
@@ -77,10 +76,6 @@ const GlobalStyle = createGlobalStyle`
         a {
             color: ${theme.colorPrimary};
             transition: ${theme.transition};
-
-            &:hover {
-                color: ${theme.colorWhite};
-            }
         }
 
         img {
@@ -117,19 +112,17 @@ export const Button = styled.a`
   ${({ theme, primary }) => css`
     width: max-content;
     display: inline-block;
-    color: ${primary ? theme.colorBackground : theme.colorPrimary};
+    color: ${primary ? theme.colorWhite : theme.colorPrimaryVariant};
     padding: 1.2rem 1.9rem;
     border-radius: 0.65rem;
     cursor: pointer;
-    border: 0.1rem solid ${theme.colorPrimary};
+    border: 0.1rem solid ${primary ? theme.colorPrimary : theme.colorPrimaryVariant};
     transition: ${theme.transition};
-    background: ${primary ? theme.colorPrimary : theme.colorBackground};
+    background: ${primary ? theme.colorPrimary : 'transparent'};
     font-size: 1.6rem;
 
     &:hover {
-      background: ${theme.colorWhite};
-      color: ${theme.colorBackground};
-      border-color: transparent;
+      opacity: 0.8;
     }
   `}
 `;

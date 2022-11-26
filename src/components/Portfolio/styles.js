@@ -29,11 +29,6 @@ export const ContainerPortfolio = styled(Container)`
       @media screen and (max-width: 500px) {
         width: 100%;
       }
-
-      &:hover {
-        border-color: ${theme.colorPrimaryVariant};
-        background: transparent;
-      }
     }
 
     img {

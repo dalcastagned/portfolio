@@ -1,3 +1,5 @@
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 import { AiFillFolder } from 'react-icons/ai';
 import { FaBookOpen } from 'react-icons/fa';
 import { RiMedalFill } from 'react-icons/ri';
@@ -6,6 +8,18 @@ import { Button } from '../../styles/globalStyles';
 import * as S from './styles';
 
 function About() {
+  const [settings, setSettings] = useState();
+  const getSettings = async () => {
+    const response = await axios.get('/about.json');
+    setSettings(response.data);
+  };
+
+  useEffect(() => {
+    getSettings();
+  }, []);
+
+  if (!settings) return null;
+
   return (
     <S.Section id="about">
       <h5>Vamos nos Conhecer</h5>
@@ -23,32 +37,29 @@ function About() {
             <article>
               <RiMedalFill />
               <h5>Experiência</h5>
-              <small>Mais de 1 Ano</small>
+              <small>{settings.experience}</small>
             </article>
             <article>
               <FaBookOpen />
               <h5>Estudo</h5>
-              <small>Mais de 2 Anos</small>
+              <small>{settings.studies}</small>
             </article>
             <article>
               <AiFillFolder />
               <h5>Projetos</h5>
-              <small>10+ Concluídos</small>
+              <small>{settings.projects}</small>
             </article>
           </S.Cards>
           <S.Text>
             <span>
-              Olá, me chamo Daniel, tenho 25 anos, sou um Engenheiro Eletricista com uma grande
-              paixão por tecnologia que decidiu sair da zona de conforto e entrar para o mundo do
-              desenvolvimento web.
+              {settings.about1}
               <br />
             </span>
             <span>
-              Estudo muito todos os dias para me aprimorar e atingir meus objetivos pois acredito
-              que tudo é possível com dedicação e resiliência.
+              {settings.about2}
               <br />
             </span>
-            <span>Será um prazer fazer parte da sua equipe.</span>
+            <span>{settings.about3}</span>
           </S.Text>
           <Button href="/#contact" primary>
             Vamos Conversar!

@@ -1,0 +1,23 @@
+{
+    "frotendSkills": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "TypeScript",
+        "ReactJS",
+        "MUI",
+        "CSS in JS",
+        "Jest"
+      ],
+      "backendSkills": ["C#", ".NET", "NodeJS", "Express", "Java", "Spring Boot", "JUnit", "Jest"],
+      "othersSkills": [
+        "GraphQL",
+        "Firebase",
+        "PostgreSQL",
+        "SQL Server",
+        "MySQL",
+        "MongoDB",
+        "Git",
+        "Docker"
+      ]
+}

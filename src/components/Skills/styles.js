@@ -24,17 +24,11 @@ export const Skills = styled.div`
       width: 100%;
     }
 
-    &:hover {
-      background: transparent;
-      border-color: ${theme.colorPrimaryVariant};
-      cursor: default;
-    }
-
     h3 {
       text-align: center;
       font-size: 2.4rem;
       margin-bottom: 3.6rem;
-      color: ${theme.colorPrimary};
+      color: ${theme.colorPrimaryVariant};
     }
   `}
 `;

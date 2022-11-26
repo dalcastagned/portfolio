@@ -5,6 +5,7 @@ import emailjs from 'emailjs-com';
 import toast from 'react-hot-toast';
 
 import * as S from './styles';
+import { Button } from '../../styles/globalStyles';
 
 function Contact() {
   const form = useRef();
@@ -49,7 +50,9 @@ function Contact() {
           <input type="text" placeholder="Nome Completo" name="name" required />
           <input type="text" placeholder="Email" name="email" required />
           <textarea name="message" rows="7" placeholder="Mensagem" required />
-          <button type="submit">Enviar</button>
+          <Button type="submit" primary>
+            Enviar
+          </Button>
         </S.Form>
       </S.ContainerContact>
     </S.Section>

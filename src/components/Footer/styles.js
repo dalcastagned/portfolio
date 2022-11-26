@@ -9,10 +9,10 @@ export const Footer = styled.footer`
     margin-top: 11.2rem;
 
     a {
-      color: ${theme.colorBackground};
+      color: ${theme.colorWhite};
 
         &:hover {   
-            color: ${theme.colorWhite};
+            color: ${theme.colorLight};
         }
     }
 
@@ -53,7 +53,7 @@ export const Social = styled.div`
 
 export const Copyright = styled.div`
   ${({ theme }) => css`
-    color: ${theme.colorBackground};
+    color: ${theme.colorWhite};
     margin-bottom: 6.4rem;
     padding: 0 1rem;
   `}

@@ -51,6 +51,14 @@ export const Socials = styled.div`
     bottom: 12.8rem;
     font-size: 2.4rem;
 
+    a {
+      color: ${theme.colorPrimaryVariant};
+
+      &:hover {
+        color: ${theme.colorWhite};
+      }
+    }
+
     &::after {
       content: '';
       width: 0.1rem;

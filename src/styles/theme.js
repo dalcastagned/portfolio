@@ -1,8 +1,8 @@
 export const darkTheme = {
-  colorBackground: '#1f1f38',
-  colorBackgroundVariant: '#2c2c6c',
-  colorPrimary: '#4db5ff',
-  colorPrimaryVariant: 'rgba(77, 181, 255, 0.4)',
+  colorBackground: '#161616',
+  colorBackgroundVariant: '#1F1F1F',
+  colorPrimary: '#8b0000',
+  colorPrimaryVariant: '#e50914',
   colorWhite: ' #fff',
   colorLight: 'rgba(255, 255, 255, 0.6)',
 

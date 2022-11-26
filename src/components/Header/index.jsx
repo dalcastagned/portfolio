@@ -1,7 +1,6 @@
 import { BsLinkedin, BsGithub } from 'react-icons/bs';
 import { GrMail } from 'react-icons/gr';
 import { Button, TextLight } from '../../styles/globalStyles';
-import cvDanielDalcastagne from '../../assets/cvDanielDalcastagne.pdf';
 
 import * as S from './styles';
 
@@ -13,7 +12,7 @@ function Header() {
         <h1>Daniel Dalcastagne</h1>
         <TextLight>Desenvolvedor Fullstack</TextLight>
         <S.CTA>
-          <Button href={cvDanielDalcastagne} download>
+          <Button href="/cvDanielDalcastagne.pdf" download>
             Download CV
           </Button>
           <Button href="/#contact" primary>

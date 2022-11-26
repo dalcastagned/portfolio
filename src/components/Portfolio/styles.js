@@ -26,7 +26,7 @@ export const ContainerPortfolio = styled(Container)`
       transition: ${theme.transition};
       width: 40rem;
       display: grid;
-      grid-template-rows: 16rem 6rem 7rem 1fr auto;
+      grid-template-rows: 16rem 6rem 9rem 1fr auto;
 
       @media screen and (max-width: 500px) {
         width: 100%;

@@ -8,7 +8,7 @@
             "technologies": [
               "ReactJS",
               "TypeScript",
-              "Yup com Formik",
+              "Yup e Formik",
               "Axios",
               "Material UI",
               "MomentJS",
@@ -62,8 +62,8 @@
             "ReactJS",
             "JavaScript",
             "React-Icons",
+            "Hot-Toast",
             "Styled-Components",
-            "React-Hot-Toast",
             "EmailJS"
           ]
         },
@@ -77,12 +77,12 @@
             "ReactJS",
             "TypeScript",
             "Material UI",
-            "Styled-Components",
             "Axios",
             "ChartJS",
             "React-Toastfy",
-            "Yup com Formik",
+            "Yup e Formik",
             "MomentJS",
+            "Styled-Components",
             "Jest"
           ]
         },
@@ -96,8 +96,8 @@
             ".Net C#",
             "Swagger",
             "SQL Server",
-            "Entity Framework",
             "Docker",
+            "Entity Framework",
             "Canducci Paginated"
           ]
         },
@@ -110,10 +110,10 @@
           "technologies": [
             "NodeJS",
             "TypeScript",
-            "Docker",
             "MongoDB",
             "Mongoose",
-            "Mongoose Paginate"
+            "Mongoose Paginate",
+            "Docker"
           ]
         },
         {
@@ -127,9 +127,9 @@
             "ReactJS",
             "JavaScript",
             "React-Icons",
-            "React-Router-Dom",
-            "Axios",
-            "Styled-Components"
+            "React-Router",
+            "Styled-Components",
+            "Axios"
           ]
         },
         {
@@ -143,14 +143,14 @@
             "ReactJS",
             "JavaScript",
             "React-Icons",
-            "React-Router-Dom",
-            "Axios",
-            "Styled-Components"
+            "React-Router",
+            "Styled-Components",
+            "Axios"
           ]
         },
         {
           "id": 2,
-          "title": "Solar Energy (com JSON-SERVER)",
+          "title": "Solar Energy (JSON-SERVER)",
           "image": "/img/portfolio/solar-energy.png",
           "github": "https://github.com/dalcastagned/solar-energy-json-server",
           "description": "Projeto desenvolvido para reforçar os conhecimentos em consulta de APIs RESTful com Axios utilizando JSON Server para Fake API.",
@@ -158,13 +158,13 @@
             "ReactJS",
             "JavaScript",
             "React-Icons",
-            "React-Router-Dom",
-            "React-Datepicker",
-            "Styled-Components",
+            "React-Router",
+            "Datepicker",
             "JSON Server",
             "Axios",
             "ChartJS",
-            "React-Hot-Toast"
+            "Styled-Components",
+            "Hot-Toast"
           ]
         },
         {

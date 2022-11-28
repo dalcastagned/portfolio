@@ -58,9 +58,7 @@ function Contact() {
           <input type="text" placeholder="Nome Completo" name="name" required />
           <input type="text" placeholder="Email" name="email" required />
           <textarea name="message" rows="7" placeholder="Mensagem" required />
-          <button type="submit" primary>
-            {loading ? <Spinner size={28} /> : 'Enviar'}
-          </button>
+          <button type="submit">{loading ? <Spinner size={28} /> : 'Enviar'}</button>
         </S.Form>
       </S.ContainerContact>
     </S.Section>

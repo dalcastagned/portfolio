@@ -21,9 +21,9 @@ function Portfolio() {
       <h5>Projetos que Realizei</h5>
       <h2>Portfólio</h2>
 
-      <S.Title>Projetos de estudos:</S.Title>
+      <S.Title>{settings.studies.title}:</S.Title>
       <S.ContainerPortfolio>
-        {settings.studies.map(item => (
+        {settings.studies.projects.map(item => (
           <article key={item.id}>
             <div>
               <img src={item.image} alt={item.title} />
@@ -51,9 +51,9 @@ function Portfolio() {
         ))}
       </S.ContainerPortfolio>
 
-      <S.Title style={{ marginTop: '5rem' }}>Projetos Freelances:</S.Title>
+      <S.Title style={{ marginTop: '5rem' }}>{settings.freelancers.title}:</S.Title>
       <S.ContainerPortfolio>
-        {settings.freelances.map(item => (
+        {settings.freelancers.projects.map(item => (
           <article key={item.id}>
             <div>
               <img src={item.image} alt={item.title} />

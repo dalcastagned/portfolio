@@ -1,5 +1,7 @@
 {
-    "freelances": [
+    "freelancers": {
+      "title": "Projeto Freelancer",
+      "projects": [
         {
             "id": 1,
             "title": "Que Barbada (Admin)",
@@ -15,8 +17,11 @@
               "Jest"
             ]
           }
-    ],
-    "studies": [
+      ]
+    },
+    "studies": {
+      "title": "Projetos de Estudo",
+      "projects": [
         {
         "id": 10,
         "title": "Pixeon Planning Poker",
@@ -181,4 +186,5 @@
           ]
         }
       ]
+    }
 }

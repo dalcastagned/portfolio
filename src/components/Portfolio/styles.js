@@ -52,6 +52,7 @@ export const ContainerPortfolio = styled(Container)`
       gap: 1rem;
 
       li {
+        padding-right: 2rem;
         list-style: circle;
         line-height: 2rem;
     }

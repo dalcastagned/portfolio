@@ -139,7 +139,7 @@
         },
         {
           "id": 3,
-          "title": "Informações e Noticias Sobre MMOs",
+          "title": "Informações Sobre MMOs",
           "image": "/img/portfolio/mmo.png",
           "github": "https://github.com/dalcastagned/mmo-react-complete-site",
           "demo": "https://mmo-react-complete-site.vercel.app/",

@@ -10,7 +10,11 @@ import * as S from './styles';
 function About() {
   const [settings, setSettings] = useState();
   const getSettings = async () => {
-    const response = await axios.get('/about.json');
+    const response = await axios.get('/about.json', {
+      headers: {
+        'Cache-Control': 'no-cache',
+      },
+    });
     setSettings(response.data);
   };
 

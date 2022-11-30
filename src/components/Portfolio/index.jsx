@@ -6,7 +6,11 @@ import * as S from './styles';
 function Portfolio() {
   const [settings, setSettings] = useState();
   const getSettings = async () => {
-    const response = await axios.get('/portfolio.json');
+    const response = await axios.get('/portfolio.json', {
+      headers: {
+        'Cache-Control': 'no-cache',
+      },
+    });
     setSettings(response.data);
   };
 
